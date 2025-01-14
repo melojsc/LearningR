@@ -14,6 +14,8 @@ format: html
 
 ```{r setup}
 library(tidyverse)
+post_meal_data <- read_csv2(
+here::here("data/post-meal-insulin.csv"))
 ```
 ## About me
 
@@ -27,4 +29,12 @@ library(tidyverse)
 ```{r}
 3 * 3
 ```
+## Showing the data
+
+```{r}
+post_meal_data
+
+```
+```{r}
+glimpse(post_meal_data)```
 
