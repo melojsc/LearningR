@@ -119,3 +119,5 @@ ggplot(post_meal_data, aes(x = BMI, y = auc_pg)) +
 
 ```
 ## Pushing changes to remote
+
+## Pulling changes locally
